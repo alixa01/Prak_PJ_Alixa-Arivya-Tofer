@@ -16,7 +16,7 @@
   <tr>
     <th>
       <h1>🔗 Find Me</h1>
-      [<img src="[https://raw.githubusercontent.com/Raymo111/Raymo111/master/socials/twitter.svg](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)" height="40em" align="center" alt="Follow Raym0111 on Twitter" title="Follow Raymo111 on Twitter" href="https://twitter.com/grifixn"/>]
+        [<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="40em" align="center" alt="Follow Raym0111 on Twitter" title="Follow Raymo111 on Twitter"/>](https://twitter.com/grifixn)
     </th>
   </tr>
 </table><br><br>
