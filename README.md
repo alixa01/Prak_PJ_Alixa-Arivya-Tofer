@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <th>
-      <h1><code>This is Repository for Praktikum Pemograman Jaringan Assignments</code></h1>
+      <h1><code>This is Repository for `Praktikum Pemograman Jaringan` Assignments</code></h1>
     </th>
   </tr>
 </table>
