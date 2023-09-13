@@ -17,6 +17,7 @@
 
  * # Modul 1 - Pengantar Pemograman Berbasis Jaringan
 - Program Hello World
+    - File dengan nama hello.jsdan masukkan kode dibawah
     ```yml
     console.log('Welcome to Node.js!')
   ```
