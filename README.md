@@ -17,6 +17,6 @@
 
  * # Modul 1 - Pengantar Pemograman Berbasis Jaringan
 - Program Hello World
-    ```yaml
+    ```yml
     console.log('Welcome to Node.js!')
   ```
