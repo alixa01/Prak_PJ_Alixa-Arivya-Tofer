@@ -5,8 +5,8 @@
 <table>
   <tr>
     <th>
-      Hi There 👋 , i'm
-      Alixa Arivya Tofer
+      <h1>Hi There 👋 , i'm
+      Alixa Arivya Tofer<h1>
     </th>
   </tr>
 </table>
