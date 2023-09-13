@@ -21,4 +21,4 @@
     ```yml
     console.log('Welcome to Node.js!')
   ```
-    consolo.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
+    console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
