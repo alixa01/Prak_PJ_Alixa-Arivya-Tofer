@@ -3,8 +3,6 @@
 
 
 <table>
-  <tr>   
-  </tr>
   <tr>
     <th>
       Hi There 👋 , i'm
