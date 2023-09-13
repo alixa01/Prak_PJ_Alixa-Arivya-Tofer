@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <th>
-      <h1>🔗 Find Me</h1>
+      <h1>🔗 Find Me</h1><br>
       [<img src="https://raw.githubusercontent.com/Raymo111/Raymo111/master/socials/twitter.svg" height="40em" align="center" alt="Follow Raym0111 on Twitter" title="Follow Raymo111 on Twitter"/>](https://twitter.com/grifixn)
     </th>
   </tr>
