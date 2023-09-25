@@ -20,7 +20,22 @@
     ![hellow world term](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e5910700-b035-4aec-838a-8943854e1a27)
     - Buatlah sebuah file baru lagi dengan nama hello-world.js pada folder yang sama
 dan cobalah ketikan kode berikut ini
-![hello-world](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3b4f5707-5956-4980-ac48-bcf24e63ba1f)
+    ```yml
+    const http = require('http');
+
+const hostname = '127.0.0.1'
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World');
+})
+
+server.listen(port, hostname, () => {
+    console.log(\`Server running at http://${hostname}:${port}/`);
+})
+```
     - Jalankan program tersebut dan akan muncul informasi Server running at
 http://127.0.0.1:3000/
 ![web](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/2d569a99-7b24-45e4-b336-2b43cb487fb8)
