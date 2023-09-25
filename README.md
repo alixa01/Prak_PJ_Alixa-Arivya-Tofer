@@ -18,3 +18,5 @@
     console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
     - Jalankan file tersebut dan lihat bagaimana hasilnya. 
     ![hellow world term](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e5910700-b035-4aec-838a-8943854e1a27)
+    - Buatlah sebuah file baru lagi dengan nama hello-world.js pada folder yang sama
+dan cobalah ketikan kode berikut ini
