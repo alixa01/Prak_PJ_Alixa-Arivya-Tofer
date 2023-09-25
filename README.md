@@ -17,3 +17,4 @@
   ```
     console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
     - Jalankan file tersebut dan lihat bagaimana hasilnya. 
+  <img src="https://ibb.co/mDj69wR">
