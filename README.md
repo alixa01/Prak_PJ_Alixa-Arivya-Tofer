@@ -17,4 +17,4 @@
   ```
     console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
     - Jalankan file tersebut dan lihat bagaimana hasilnya. 
-  <img src="https://ibb.co/mDj69wR">
+  <img src="https://i.ibb.co/K0PF2k5/hellow-world-term.png" alt="hellow-world-term" border="0" />
