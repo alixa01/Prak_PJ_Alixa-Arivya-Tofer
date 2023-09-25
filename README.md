@@ -16,3 +16,4 @@
     console.log('Welcome to Node.js!')
   ```
     console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
+    - Jalankan file tersebut dan lihat bagaimana hasilnya. 
