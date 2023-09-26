@@ -104,9 +104,21 @@ http://127.0.0.1:3000/
      npm init
      ```
 
-  - Install
+  - Install validator dengan versi versi 13.11.0
     ```yml
     npm i validator@13.11.0
     ```
     
     ![npmvalidator](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/25bf8bbb-4cf4-4d0b-8e16-8f949f219193)
+
+  - Tambahkan kode berikut pada app.js
+    ```yml
+    const validator = require('validator')
+    const ambilCatatan = require('./catatan.js')
+    const pesan = ambilCatatan()
+    console.log(pesan)
+    console.log(validator.isURL('https://proska.com'))
+    ```
+
+  - Lalu jalankan pada terminal dan akan tampil sebagai berikut
+    ![app2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4147238e-4ca1-453f-ae5d-64211cd35acb)
