@@ -67,3 +67,8 @@ http://127.0.0.1:3000/
 
   - Setalah itu teks dalam catatan.txt akan berubah <br>
     ![catatan2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/168e4793-40dc-4e88-b836-2c0d801345f5)
+    <hr>
+
+<h4>
+  B. Import File Pada Node.js
+</h4>
