@@ -1,4 +1,4 @@
-# Prak_PJ_Alixa-Arivya-Tofer
+![image](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/36f5526b-96f6-4773-8043-9cba7992eb5d)# Prak_PJ_Alixa-Arivya-Tofer
 
 
 
@@ -47,7 +47,8 @@ http://127.0.0.1:3000/
   A. Import Core Module Node.js
 </h4>
     - Buat folder baru buku-catatan dan file app.js
-  ```yml
+    
+```yml
   const fs = require('fs')
   fs.writeFileSync('catatan.txt', 'Nama Saya Randi Proska')
 ```
