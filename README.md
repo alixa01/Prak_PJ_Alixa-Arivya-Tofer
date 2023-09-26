@@ -1,4 +1,4 @@
-![image](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/36f5526b-96f6-4773-8043-9cba7992eb5d)# Prak_PJ_Alixa-Arivya-Tofer
+# Prak_PJ_Alixa-Arivya-Tofer
 
 
 
