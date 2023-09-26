@@ -72,3 +72,22 @@ http://127.0.0.1:3000/
 <h4>
   B. Import File Pada Node.js
 </h4>
+
+  - Buat file dengan baru catatan.js lalu tambahkan kode berikut
+
+    ```yml
+    const ambilCatatan = function () {
+    return 'Ini Catatan Randi Proska...'
+    }
+    module.exports = ambilCatatan
+    ```
+
+  - Lalu tambahkan kode berikut pada file app.js
+
+    ```yml
+    const catatan = require('./catatan.js')
+    const pesan = catatan()
+    console.log(pesan)
+    ```
+
+    
