@@ -46,7 +46,7 @@ http://127.0.0.1:3000/
 <h4>
   A. Import Core Module Node.js
 </h4>
-    - Buat folder baru buku-catatan dan file app.js
+      - Buat folder baru buku-catatan dan file app.js
     
   ```yml
     const fs = require('fs')
