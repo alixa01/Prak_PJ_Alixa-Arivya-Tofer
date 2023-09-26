@@ -57,3 +57,11 @@ http://127.0.0.1:3000/
 
    - Lalu file catatan.txt telah dibuat <br>
      ![catatan](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/130a0889-6f82-4d40-894b-9a7b5b0fb5ce)
+
+   - Tambahkan kode berikut diline ke-3
+
+     ```yml
+     fs.appendFileSync('catatan.txt', ' Saya tinggal di Padang')
+     ```
+
+     
