@@ -56,7 +56,8 @@ http://127.0.0.1:3000/
   ```
 
    - Lalu file catatan.txt telah dibuat <br>
-     ![catatan](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/130a0889-6f82-4d40-894b-9a7b5b0fb5ce)
+     ![catatan](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/130a0889-6f82-4d40-894b-9a7b5b0fb5ce) <br>
+     ![catatan1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/79725d59-8915-40d0-829b-0965eca8c20e)
 
    - Tambahkan kode berikut diline ke-3
 
