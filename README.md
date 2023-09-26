@@ -90,4 +90,5 @@ http://127.0.0.1:3000/
     console.log(pesan)
     ```
 
-    
+  - Lalu jalankan program pada terminal dan akan tampil sbg berikut
+    ![appjs](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9008aae3-7e06-4e23-bda3-7b9b3b1620d4)
