@@ -48,11 +48,11 @@ http://127.0.0.1:3000/
 </h4>
     - Buat folder baru buku-catatan dan file app.js
     
-  ```yml
+    ```yml
     const fs = require('fs')
     fs.writeFileSync('catatan.txt', 'Nama Saya Randi Proska')
 
-  ```
+    ```
 
    - Lalu file catatan.txt telah dibuat
      ![catatan](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/130a0889-6f82-4d40-894b-9a7b5b0fb5ce)
