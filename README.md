@@ -92,3 +92,17 @@ http://127.0.0.1:3000/
 
   - Lalu jalankan program pada terminal dan akan tampil sbg berikut
     ![appjs](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9008aae3-7e06-4e23-bda3-7b9b3b1620d4)
+    <hr>
+
+<h4>
+  C. Import npm (Node Package Manager) Pada Node.js
+</h4>
+
+  - Install npm init pada direktori buku-catatan
+
+     ```yml
+     npm init
+     ```
+
+  - Install npm i validator@13.11.0
+    ![npmvalidator](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/25bf8bbb-4cf4-4d0b-8e16-8f949f219193)
