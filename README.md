@@ -173,3 +173,34 @@ http://127.0.0.1:3000/
 <h2>
   B. COMMAND LINE ARGUMENTS
 </h2>
+
+<h4>
+  a. Mendapatkan Input Dari Pengguna
+</h4>
+
+  - Ketikan kode berikut pada app.js
+    ```yml
+    const ambilCatatan = require('./catatan.js')
+    const command = process.argv[2]
+    console.log(process.argv)
+    ```
+
+  - Jalankan pada terminal dengan menambahkan argumen dibelakangnya <br>
+  ![argumen](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/0be1482d-af9b-4c49-ac0d-ab745e68b33c)
+
+  - Kita bisa memasukkan array pada consolenya untuk memilih data pada urutan keberapa yang ingin ditampilkan
+    ```yml
+    console.log(process.argv[2])
+    ```
+    kita akan menampilkan data pada array ke-2 yaitu alixa
+    ![array2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f0168c18-f729-41f8-82e7-ff28187f81a3)
+  - Tambahkan kode berikut dibawahnya
+    ```yml
+    if (command === 'tambah') {
+    console.log('Tambah Catatan')
+    } else if (command === 'hapus') {
+    console.log('Hapus Catatan')
+    }
+    ```
+
+  - 
