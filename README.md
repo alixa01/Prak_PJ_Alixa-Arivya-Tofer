@@ -126,7 +126,7 @@ http://127.0.0.1:3000/
     ```
 
   - Lalu jalankan pada terminal dan akan tampil sebagai berikut <br>
-    ![app2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4147238e-4ca1-453f-ae5d-64211cd35acb)
+    ![app2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4147238e-4ca1-453f-ae5d-64211cd35acb)<hr>
 
 <h4>
   d. Latihan 1
