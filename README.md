@@ -122,3 +122,20 @@ http://127.0.0.1:3000/
 
   - Lalu jalankan pada terminal dan akan tampil sebagai berikut <br>
     ![app2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4147238e-4ca1-453f-ae5d-64211cd35acb)
+
+<h4>
+  C. Latihan 1
+</h4>
+
+  - Install package chalk versi 4.1.2 dengan
+    ```yml
+    npm i chalk@4.1.2
+    ```
+
+  - Gunakan kode berikut untuk mencetak teks "print warna biru sukes"
+    ```yml
+    const chalk = require('chalk');
+
+    console.log(chalk.blue('print warna biru sukes'));
+    ```
+  ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)
