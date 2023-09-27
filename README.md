@@ -142,7 +142,7 @@ http://127.0.0.1:3000/
     ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)
     
 <h4>
-  C. Latihan 2
+  D. Latihan 2
 </h4>
 
   - Install package nodemon dengan
