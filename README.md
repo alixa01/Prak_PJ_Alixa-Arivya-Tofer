@@ -163,3 +163,8 @@ http://127.0.0.1:3000/
 
   - berikut hasil outputnya <br>
     ![nodemon](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9df3b8be-78ce-48eb-83a4-d3a5966a32e8)
+    <br><br><hr>
+
+<h2>
+  B. COMMAND LINE ARGUMENTS
+</h2>
