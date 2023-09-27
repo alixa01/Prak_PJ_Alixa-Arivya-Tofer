@@ -9,8 +9,8 @@
 
 
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Skranji&size=18&pause=1000&width=435&lines=Modul+1+-+Pengantar+Pemograman+Berbasis+Jaringan" />
+<h1 align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Urbanist&size=19&pause=1000&color=1EC309&width=435&lines=Modul+1+-+Pengantar+Pemograman+Berbasis+Jaringan" />
 </h1>
 - Program Hello World
     - Buat file dengan nama hello.js lalu ketikkan kode dibawah
