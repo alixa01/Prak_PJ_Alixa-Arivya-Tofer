@@ -43,8 +43,13 @@ http://127.0.0.1:3000/
 <hr>
 
 * # Modul 2 - Node.js Module System dan Command Line Arguments
+
+<h2>
+  A. NODE.JS MODULE SYSTEM
+</h2>
+
 <h4>
-  A. Import Core Module Node.js
+  a. Import Core Module Node.js
 </h4>
 
   - Buat folder baru buku-catatan dan file app.js
@@ -70,7 +75,7 @@ http://127.0.0.1:3000/
     <hr>
 
 <h4>
-  B. Import File Pada Node.js
+  b. Import File Pada Node.js
 </h4>
 
   - Buat file dengan baru catatan.js lalu tambahkan kode berikut
@@ -95,7 +100,7 @@ http://127.0.0.1:3000/
     <hr>
 
 <h4>
-  C. Import npm (Node Package Manager) Pada Node.js
+  c. Import npm (Node Package Manager) Pada Node.js
 </h4>
 
   - Install npm init pada direktori buku-catatan
@@ -124,7 +129,7 @@ http://127.0.0.1:3000/
     ![app2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4147238e-4ca1-453f-ae5d-64211cd35acb)
 
 <h4>
-  C. Latihan 1
+  d. Latihan 1
 </h4>
 
   - Install package chalk versi 4.1.2 dengan
@@ -142,7 +147,7 @@ http://127.0.0.1:3000/
     ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)
     
 <h4>
-  D. Latihan 2
+  e. Latihan 2
 </h4>
 
   - Install package nodemon dengan
