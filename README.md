@@ -39,8 +39,8 @@ dan cobalah ketikan kode berikut ini
     - Jalankan program tersebut dan akan muncul informasi Server running at
 http://127.0.0.1:3000/
 ![web](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/2d569a99-7b24-45e4-b336-2b43cb487fb8)
-
-<hr>
+<br><br>
+<hr><hr>
 
 * # Modul 2 - Node.js Module System dan Command Line Arguments
 
@@ -163,7 +163,7 @@ http://127.0.0.1:3000/
 
   - berikut hasil outputnya <br>
     ![nodemon](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9df3b8be-78ce-48eb-83a4-d3a5966a32e8)
-    <br><br><hr>
+    <br><br><hr><hr>
 
 <h2>
   B. COMMAND LINE ARGUMENTS
