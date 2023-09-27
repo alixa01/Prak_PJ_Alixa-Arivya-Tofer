@@ -138,5 +138,23 @@ http://127.0.0.1:3000/
 
     console.log(chalk.blue('print warna biru sukes'));
     ```
-  - Berikut hasil outputnya
+  - Berikut hasil outputnya <br>
     ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)
+    
+<h4>
+  C. Latihan 2
+</h4>
+
+  - Install package nodemon dengan
+    ```yml
+    npm i nodemon
+    ```
+
+  - Jalankan aplikasi dengan 'nodemon app.js'
+    ```yml
+    nodemon chalk.js
+    ```
+    maka aplikasi akan berjalan secara realtime, jika kita mengubah kode pada program maka outputnya akan berubah otomatis pada terminal
+
+  - berikut hasil outputnya <br>
+    ![nodemon](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9df3b8be-78ce-48eb-83a4-d3a5966a32e8)
