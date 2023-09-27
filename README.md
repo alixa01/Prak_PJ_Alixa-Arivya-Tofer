@@ -144,7 +144,7 @@ http://127.0.0.1:3000/
     console.log(chalk.blue('print warna biru sukes'));
     ```
   - Berikut hasil outputnya <br>
-    ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)
+    ![chalk](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/ed332075-8678-4e4a-a4a8-b83d69aad39e)<hr>
     
 <h4>
   e. Latihan 2
