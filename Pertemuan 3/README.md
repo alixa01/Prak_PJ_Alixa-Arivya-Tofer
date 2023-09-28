@@ -17,7 +17,7 @@
     ```yml
     http://api.weatherstack.com/current?access_key=ace0a2bedd12ceea356021a84772d3e2&query=-0.8970118486723626,100.35076508280925
     ```
-    ![info](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/8f262a95-c912-48b3-8f9b-c743da99d12a)
+    ![info](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/8f262a95-c912-48b3-8f9b-c743da99d12a) <hr>
 
 <h4>
   b. HTTP Request
@@ -70,7 +70,7 @@
       const urlCuaca = 'http://api.weatherstack.com/current?access_key=ace0a2bedd12ceea356021a84&query=-0.8970118486723626,100.35076508280925&units=f'
       ```
 
-    - Hasil <br>
+  - Hasil <br>
     ![fahren](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d015525d-bb55-42b1-a397-b2d15b678b77) <hr>
 
     
