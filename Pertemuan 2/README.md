@@ -53,7 +53,7 @@
     console.log(pesan)
     ```
 
-  - Lalu jalankan program pada terminal dan akan tampil sbg berikut
+  - Lalu jalankan program pada terminal dan akan tampil sbg berikut <br>
     ![appjs](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/9008aae3-7e06-4e23-bda3-7b9b3b1620d4)
     <hr>
 
@@ -157,7 +157,7 @@
     ```
 
   - Hasil <br>
-  ![tambahctt](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/7a7b227e-4b04-45a2-a2cc-2a8535522a96)
+  ![tambahctt](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/7a7b227e-4b04-45a2-a2cc-2a8535522a96) <hr>
 
 
 <h4>
@@ -235,7 +235,7 @@
     ```
 
   - Hasil <br>
-  ![cttpertama](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/499bcfc3-d912-4385-9cee-a2122ec0b310)
+  ![cttpertama](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/499bcfc3-d912-4385-9cee-a2122ec0b310) <hr>
 
 
 <h4>
@@ -254,7 +254,7 @@
     ```
 
   - Saat dijalankan file .json akan terbuat otomatis <br>
-  ![jsontest](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3b5b3d23-4072-46f3-977c-fbc1af62c1ee)
+  ![jsontest](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3b5b3d23-4072-46f3-977c-fbc1af62c1ee) <hr>
 
 
 <h4>
@@ -285,7 +285,7 @@
   - Saat dijalankan maka akan menampilkan nilai judul yang ada pada json <br>
   ![juduljson](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/b869b953-6f65-46d8-b08a-75cbf1393cc6) <br>
   begitupun untuk data.penulis maka akan menampilkan nilai penulis
-
+<hr>
 
 <h4>
   e. Latihan Menyempurnakan Aplikasi Buku-catatan
