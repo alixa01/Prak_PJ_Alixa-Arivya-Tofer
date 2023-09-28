@@ -105,7 +105,7 @@
     ![mapbox](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3a9acf8b-f269-4828-95ae-d720c8c3a015)
 
   - Hasil saat array pada center diganti <br>
-    ![mapbox1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/c1ef71e9-07f2-4a05-a6ed-90398a0ca281)
+    ![mapbox1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/c1ef71e9-07f2-4a05-a6ed-90398a0ca281) <hr>
 
 
 <h4>
@@ -134,4 +134,4 @@
     ```
 
   - Hasil <br>
-    ![d](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f0f673e3-ed7b-483f-b836-ecc2424ec8a5)
+    ![d](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f0f673e3-ed7b-483f-b836-ecc2424ec8a5) <hr>
