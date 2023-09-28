@@ -156,5 +156,280 @@
     }
     ```
 
-  - 
+  - Hasil <br>
+  ![tambahctt](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/7a7b227e-4b04-45a2-a2cc-2a8535522a96)
 
+
+<h4>
+  b. Argument Parsing (Penguraian Argumen)
+</h4>
+
+  - Install package yargs dengan
+    ```yml
+    npm i yargs
+    ```
+
+  - Masukkan kode berikut ke app.js
+    ```yml
+    const yargs = require('yargs')
+    const catatan = require('./catatan.js')
+    // Kustomisasi versi yargs
+    yargs.version('10.1.0')
+    // Membuat perintah (command) 'tambah'
+    yargs.command({
+    command: 'tambah',
+    describe: 'tambah sebuah catatan baru',
+    handler: function () {
+        console.log('Sebuah catatan baru ditambahkan!')
+    }
+    })
+    // Perintah hapus
+    yargs.command({
+    command: 'hapus',
+    describe: 'hapus catatan',
+    handler: function () {
+        console.log('Catatan berhasil dihapus')
+    }
+    })
+    // Instruksi no.4 letakan disini
+    // letakan bagian ini pada baris terakhir
+    console.log(yargs.argv)
+    ```
+
+  - Menambahkan catatn dengan node app.js tambah <br>
+    ![tambahctt2](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/73f85eab-8560-4f65-877b-4e1a1c0a0287)
+
+  - Kode menampilkan list catatan
+    ```yml
+    yargs.command({
+    command: 'list',
+    describe: 'Menampilkan catatan',
+    handler: function (){
+        console.log('List catatan')
+    }
+    })
+    ```
+
+  - Ganti kode pada command tambah dengan
+    ```yml
+    yargs.command({
+    command: 'tambah',
+    describe: 'tambah sebuah catatan baru',
+    builder: {
+        judul: {
+            describe: 'Judul catatan',
+            demandOption: true,
+            type: 'string'
+        },
+        isi: {
+            describe: 'Isi catatan',
+            demandOption: true,
+            type: 'string'
+        }
+    },
+    handler: function (argv) {
+        console.log('Judul: ' + argv.judul)
+        console.log('Isi: ' + argv.isi)
+    }
+    })
+    ```
+
+  - Hasil <br>
+  ![cttpertama](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/499bcfc3-d912-4385-9cee-a2122ec0b310)
+
+
+<h4>
+  c. Menyimpan Data Dengan JSON
+</h4>
+
+  - Tambahkan kode berikut
+    ```yml
+    const fs = require('fs')
+    const buku = {
+    judul: 'Pemrograman Jaringan',
+    penulis: 'Randi Proska Sandra'
+    }
+    const bookJSON = JSON.stringify(buku)
+    fs.writeFileSync('1-jsontest.json', bookJSON)
+    ```
+
+  - Saat dijalankan file .json akan terbuat otomatis <br>
+  ![jsontest](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3b5b3d23-4072-46f3-977c-fbc1af62c1ee)
+
+
+<h4>
+  d. Membaca Data JSON
+</h4>  
+
+  - Tambahkan kode berikut
+    ```yml
+    const fs = require('fs')
+    const dataBuffer = fs.readFileSync('1-jsontest.json')
+    const dataJSON = dataBuffer.toString()
+    const data = JSON.parse(dataJSON)
+    console.log(data)
+    ```
+
+  - Saat dijalankan maka akan membaca data yang ada di 1-jsontest.json <br>
+  ![bacajson](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f1bf7fe6-eea5-469f-be41-0a21be63ef94)
+
+  - Kita juga bisa mengubah
+    ```yml
+    console.log(data)
+    ```
+    Menjadi
+    ```yml
+    console.log(data.judul)
+    ```
+
+  - Saat dijalankan maka akan menampilkan nilai judul yang ada pada json <br>
+  ![juduljson](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/b869b953-6f65-46d8-b08a-75cbf1393cc6) <br>
+  begitupun untuk data.penulis maka akan menampilkan nilai penulis
+
+
+<h4>
+  e. Latihan Menyempurnakan Aplikasi Buku-catatan
+</h4> 
+
+  - Menambahkan catatan
+      - Menambahkan catatan baru
+          - Ganti kode pada handle command tambah dengan
+            ```yml
+            handler: function (argv) {
+            catatan.tambahCatatan(argv.judul, argv.isi)
+            }
+            ```
+
+          - Ubah kode pada catatan.js dengan
+            ```yml
+            const fs = require('fs')
+            const ambilCatatan = function () {
+            return 'Ini Catatan Randi Proska...'
+            }
+            const tambahCatatan = function (judul, isi) {
+            const catatan = muatCatatan()
+            const catatanGanda = catatan.filter(function (note) {
+            return note.title === judul
+            })
+            if (catatanGanda.length === 0) {
+            catatan.push({
+            judul: judul,
+            isi: isi
+            })
+            simpanCatatan(catatan)
+            console.log('Catatan baru ditambahkan!')
+            } else {
+            console.log('Judul catatan telah dipakai')
+            }
+            }
+            const simpanCatatan = function (catatan) {
+            const dataJSON = JSON.stringify(catatan)
+            fs.writeFileSync('catatan.json', dataJSON)
+            }
+            const muatCatatan = function () {
+            try {
+            const dataBuffer = fs.readFileSync('catatan.json')
+            const dataJSON = dataBuffer.toString()
+            return JSON.parse(dataJSON)
+            } catch (e) {
+            return []
+            }
+            }
+            module.exports = {
+            ambilCatatan: ambilCatatan,
+            tambahCatatan: tambahCatatan
+            }
+            ```
+
+          - Jalankan kode dengan
+            ```yml
+            node app.js tambah --judul="Catatan 1", --isi="Isi Catatan 1"
+            ```
+
+          - Saat dijalankan maka akan dibuat file catatan.json <br>
+          ![catatnjson](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/8a4fadbe-6131-4f6d-ac86-a3692c71bf22)
+
+
+      - Menghapus catatan
+          - Ubah kode pada command hapus dengan
+            ```yml
+            yargs.command({
+            command: 'hapus',
+            describe: 'hapus catatan',
+            builder: {
+            judul: {
+            describe: 'Judul catatan',
+            demandOption: true,
+            type: 'string'
+            },
+            },
+            handler: function (argv) {
+            catatan.hapusCatatan(argv.judul)
+            }
+            })
+            ```
+
+          - Tambahkan kode berikut pada catatan.js dibawah fungsi tambahCatatan
+            ```yml
+            const hapusCatatan = function (judul) {
+            const catatan = muatCatatan()
+            const catatanUntukDisimpan = catatan.filter(function (note) {
+            return note.judul !== judul
+            })
+            if (catatan.length > catatanUntukDisimpan.length) {
+            console.log(chalk.green.inverse('Catatan dihapus!'))
+            simpanCatatan(catatanUntukDisimpan)
+            } else {
+            console.log(chalk.red.inverse('Catatan tidak
+            ditemukan!'))
+            }
+            ```
+
+          - Tambahkan module.exports pada catatan.js dengan
+            ```yml
+            hapusCatatan: hapusCatatan
+            ```
+
+          - Jalankan program melalui terminal dengan
+            ```yml
+            node app.js hapus --judul="Catatan 1"
+            ```
+
+          - Catatan berhasil dihapus <br>
+          ![hapusctt](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/0e921be9-eb0e-4236-b9cc-d60e96e685b7)
+
+    - Menampilkan catatan
+        - Ubah kode pada command list dengan
+          ```yml
+          yargs.command({
+          command: 'list',
+          describe: 'Menampilkan catatan',
+          handler: function (){
+          const catatan = 'catatan.json';
+
+          fs.readFile(catatan, 'utf8', (err, data) => {
+            if (err) {
+                console.error(`Terjadi kesalahan saat membaca file ${catatan}:`, err);
+                return;
+            }
+
+            try {
+                const jsonObject = JSON.parse(data);
+                console.log('Nilai dari file JSON:');
+                console.log(jsonObject);
+            } catch (error) {
+                console.error(`Terjadi kesalahan saat mengurai JSON dalam file ${catatan}:`, error);
+            }
+            });
+            }
+            })
+          ```
+
+        - Jalankan program dengan
+          ```yml
+          node app.js list
+          ```
+
+
+        - Hasil <br>
+        ![listctt](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e77f50c7-a196-4964-9725-74418fa9d35c)
