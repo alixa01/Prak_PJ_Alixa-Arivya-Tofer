@@ -8,8 +8,9 @@
 
 <h4>
   a. Mendapatkan API Access Key
-</h4> <hr>
-
+</h4>
+<hr>
+ 
    - API access key dari  https://weatherstack.com/ <br>
     ![api](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/73a009e5-c16e-4579-8f3f-bf4c5f7d0320)
 
@@ -17,12 +18,14 @@
     ```yml
     http://api.weatherstack.com/current?access_key=ace0a2bedd12ceea356021a84772d3e2&query=-0.8970118486723626,100.35076508280925
     ```
-    ![info](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/8f262a95-c912-48b3-8f9b-c743da99d12a) <hr>
+    ![info](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/8f262a95-c912-48b3-8f9b-c743da99d12a)
 
+<hr>
 <h4>
   b. HTTP Request
-</h4> <hr>
-
+</h4>
+<hr>
+ 
   - Install package postman-request dengan
     ```yml
     npm i postman-request
@@ -71,12 +74,13 @@
       ```
 
   - Hasil <br>
-    ![fahren](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d015525d-bb55-42b1-a397-b2d15b678b77) <hr>
+    ![fahren](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d015525d-bb55-42b1-a397-b2d15b678b77)
 
-
+<hr>
 <h4>
   c. Latihan 1 - API Access Weatherstack
-</h4> <hr>
+</h4>
+<hr>
 
   - Kode untuk mengakses weather_descriptions
     ```yml
@@ -84,12 +88,13 @@
     ```
 
   - Hasil <br>
-    ![weather_desc](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e9aedce8-92a7-4bfb-bab5-8048c76ad1d2) <hr>
+    ![weather_desc](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e9aedce8-92a7-4bfb-bab5-8048c76ad1d2)
 
-
+<hr>
 <h4>
   d. Latihan 2 - API Mapbox
-</h4>    <hr>
+</h4>    
+<hr>
 
    - Kode request data
      ```yml
@@ -105,12 +110,13 @@
     ![mapbox](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3a9acf8b-f269-4828-95ae-d720c8c3a015)
 
   - Hasil saat array pada center diganti <br>
-    ![mapbox1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/c1ef71e9-07f2-4a05-a6ed-90398a0ca281) <hr>
+    ![mapbox1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/c1ef71e9-07f2-4a05-a6ed-90398a0ca281) 
 
-
+<hr>
 <h4>
   e. Latihan 3 - Memanggil Data API
-</h4>     <hr>
+</h4>     
+<hr>
 
   - Kode pada cekCuaca.js
     ```yml
