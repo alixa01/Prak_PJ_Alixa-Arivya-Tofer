@@ -8,7 +8,7 @@
 
 <h4>
   a. Mendapatkan API Access Key
-</h4>
+</h4> <hr>
 
    - API access key dari  https://weatherstack.com/ <br>
     ![api](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/73a009e5-c16e-4579-8f3f-bf4c5f7d0320)
@@ -21,7 +21,7 @@
 
 <h4>
   b. HTTP Request
-</h4>
+</h4> <hr>
 
   - Install package postman-request dengan
     ```yml
@@ -76,7 +76,7 @@
 
 <h4>
   c. Latihan 1 - API Access Weatherstack
-</h4>
+</h4> <hr>
 
   - Kode untuk mengakses weather_descriptions
     ```yml
@@ -89,7 +89,7 @@
 
 <h4>
   d. Latihan 2 - API Mapbox
-</h4>    
+</h4>    <hr>
 
    - Kode request data
      ```yml
@@ -110,7 +110,7 @@
 
 <h4>
   e. Latihan 3 - Memanggil Data API
-</h4>    
+</h4>     <hr>
 
   - Kode pada cekCuaca.js
     ```yml
