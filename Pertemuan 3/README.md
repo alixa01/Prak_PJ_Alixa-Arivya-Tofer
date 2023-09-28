@@ -84,6 +84,54 @@
     ```
 
   - Hasil <br>
-    ![weather_desc](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e9aedce8-92a7-4bfb-bab5-8048c76ad1d2)
+    ![weather_desc](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e9aedce8-92a7-4bfb-bab5-8048c76ad1d2) <hr>
 
+
+<h4>
+  d. Latihan 2 - API Mapbox
+</h4>    
+
+   - Kode request data
+     ```yml
+     const geocodeURL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/padang.json?language=id&access_token=pk.eyJ1IjoiYWxpeGEwNyIsImEiOiJjbG4zZmtrdGowaXhhMmpudzBsajhlcjdhIn0.IYe6HT-oaSNbmuV_esV4zw&limit=1'
+     request({ url: geocodeURL, json: true }, (error, response) => {
+     const latitude = response.body.features[0].center[1]
+     const longitude = response.body.features[0].center[0]
+     console.log(latitude, longitude)
+     })
+     ```
+
+  - Hasil <br>
+    ![mapbox](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/3a9acf8b-f269-4828-95ae-d720c8c3a015)
+
+  - Hasil saat array pada center diganti <br>
+    ![mapbox1](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/c1ef71e9-07f2-4a05-a6ed-90398a0ca281)
+
+
+<h4>
+  e. Latihan 3 - Memanggil Data API
+</h4>    
+
+  - Kode pada cekCuaca.js
+    ```yml
+    const request = require('postman-request')
+
+
+    const geocodeURL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/padang.json?language=id&access_token=pk.eyJ1IjoiYWxpeGEwNyIsImEiOiJjbG4zZmtrdGowaXhhMmpudzBsajhlcjdhIn0.IYe6HT-oaSNbmuV_esV4zw&limit=1'
+    request({ url: geocodeURL, json: true }, (error, response) => {
+        console.log('Koordinat lokasi anda adalah', response.body.features[0].center[0] + ' ' + response.body.features[0].center[1])
+        console.log('Data yang anda cari adalah' , response.body.query[0])
+        console.log('Data yang ditemukan adalah', response.body.features[0].place_name)
+        console.log('Tipe lokasi adalah', response.body.features[0].place_type[0])
+    })
     
+    
+    const urlCuaca = 'http://api.weatherstack.com/current?access_key=ace0a2bedd12ceea356021a84772d3e2&query=-0.8970118486723626,100.35076508280925&units=m'
+    request({ url: urlCuaca, json: true }, (error, response) => {
+        console.log('Saat ini suhu di ' + response.body.location.name + ' mencapai ' + response.body.current.temperature + ' derajat celcius')
+        console.log('Kemungkinan terjadinya hujan adalah ' +  response.body.current.precip + ' %')
+    })
+    ```
+
+  - Hasil <br>
+    ![d](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f0f673e3-ed7b-483f-b836-ecc2424ec8a5)
