@@ -73,4 +73,17 @@
   - Hasil <br>
     ![fahren](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d015525d-bb55-42b1-a397-b2d15b678b77) <hr>
 
+
+<h4>
+  c. Latihan 1 - API Access Weatherstack
+</h4>
+
+  - Kode untuk mengakses weather_descriptions
+    ```yml
+    console.log('Cuaca saat ini ' + response.body.current.weather_descriptions[0])
+    ```
+
+  - Hasil <br>
+    ![weather_desc](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e9aedce8-92a7-4bfb-bab5-8048c76ad1d2)
+
     
