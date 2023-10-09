@@ -16,6 +16,7 @@
     npm init -y
     ``` 
     <br>
+    
     ![generatejson](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/52219acb-c532-43d0-aaae-85a903e85d13)
 
     
