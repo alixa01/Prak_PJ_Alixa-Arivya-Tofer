@@ -5,3 +5,11 @@
 <h2>
   LATIHAN
 </h2>
+
+<h4>
+  a. Instalasi Express.js dan membuat halaman menggunakan fungsi app.get
+</h4>
+<hr>
+
+    - Generate file json 
+    
