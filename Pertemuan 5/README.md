@@ -178,7 +178,7 @@ width: 250px;
     })
     ```
 
-    - Lanjutkan program, lakukan hal yang sama untuk halaman bantuan. Pada baris kode halaman bantuan, tambahkan satu objek lagi yaitu teksBantuan: 'ini adalah teks bantuan'.
+  - Lanjutkan program, lakukan hal yang sama untuk halaman bantuan. Pada baris kode halaman bantuan, tambahkan satu objek lagi yaitu teksBantuan: 'ini adalah teks bantuan'.
       ```yml
             //ini halaman bantuan/FAQ (Frequently Asked Questions)
       app.get('/bantuan', (req, res) => {
@@ -189,25 +189,25 @@ width: 250px;
       })
       ```
 
-    - Lalu, buatlah folder baru pada aplikasi web-server anda dan beri nama views. Didalam folder ini, buatlah file baru dengan nama index.hbs
+  - Lalu, buatlah folder baru pada aplikasi web-server anda dan beri nama views. Didalam folder ini, buatlah file baru dengan nama index.hbs
    
-    - Salinlah semua baris kode yang ada pada file index.html ke file index.hbs. Lalu gantilah kode yang ada dalam <body> dengan baris kode berikut
+  - Salinlah semua baris kode yang ada pada file index.html ke file index.hbs. Lalu gantilah kode yang ada dalam <body> dengan baris kode berikut
       ```yml
       <h1>{{judul}}</h1>
       <p>Dikembangkan oleh {{nama}}</p>
       ```
 
-    - Buat dua buah file lagi dalam folder views dengan nama bantuan.hbs dan tentang.hbs
+  - Buat dua buah file lagi dalam folder views dengan nama bantuan.hbs dan tentang.hbs
       <br> ![views](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d116a308-ee0b-44bd-a6ec-d22ac00d74db) <br>
 
-    - Lalu salinlah baris kode bantuan.html ke bantuan.hbs dan ubahlah baris kode yang ada didalam <body> dengan kode berikut
+  - Lalu salinlah baris kode bantuan.html ke bantuan.hbs dan ubahlah baris kode yang ada didalam <body> dengan kode berikut
       ```yml
       <h1>Bantuan Apa yang anda butuhkan?</h1>
       <p>{{teksBantuan}}</p>
       <p>Dikembangkan oleh {{nama}}</p>
       ```
 
-    - Tambahkan baris kode yang belum ada pada baris kode anda
+  - Tambahkan baris kode yang belum ada pada baris kode anda
       ```yml
       const direktoriViews = path.join(__dirname, '../templates')
       app.set('views', direktoriViews)
