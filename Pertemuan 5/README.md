@@ -212,7 +212,7 @@ width: 250px;
       const direktoriViews = path.join(__dirname, '../templates')
       app.set('views', direktoriViews)
       ```
-      <hr>
+<hr>
 
 
 <h4>
@@ -222,6 +222,71 @@ width: 250px;
 
   -  Jalankan kembali dengan perintah berikut nodemon app.js -e js,hbs
       
-  - asd
+  - Selanjutnya, buatlah dua folder baru didalam folder templates. Beri nama folder tersebut dengan views dan partials. Folder views akan berisi file tampilan utama, sementara folder partials nantinya akan berisi file tampilan partial seperti header dan footer. Hal ini diperlukan untuk membuat beberapa baris kode program menjadi dapat digunakan kembali (reusable).
+    <br> ![temp](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f2aa9850-e846-45e4-aa1e-ba311fc758f6) <br>
 
-      
+  - Buatlah dua buah file didalam folder partials. File pertama beri nama header.hbs dan yang kedua footer.hbs
+    <br> ![partials](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e7c10f22-ace5-4176-9ee5-1e514d9d6709) <br>
+
+  - Tambahkan kode berikut ke app.js
+    ```yml
+    const direktoriPartials = path.join(__dirname, '../templates/partials')
+    hbs.registerPartials(direktoriPartials)
+    ```
+
+  - Masukan baris kode berikut pada file header.hbs
+    ```yml
+    <header>
+      <h1>{{judul}}</h1>
+
+      <a href="/">Home</a>
+      <a href="/tentang">Tentang</a>
+      <a href="/bantuan">Bantuan</a>
+    </header>
+    ```
+
+  - Lalu, masukan baris kode berikut pada file footer.hbs
+    ```yml
+    <footer>
+      <p>Dikembangkan oleh by {{nama}}</p>
+    </footer>
+    ```
+
+  - Tambahkanlah baris kode berikut pada didalam bagian <head> pada file index.hbs
+    ```yml
+    <title>Aplikasi Cek Cuaca</title>
+    <link rel="icon" href="/img/cuaca.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js"></script>
+    ```
+
+  - Ubah lagi kode pada file index.hbs, tentang.hbs dan bantuan.hbs yang ada dalam bagian <body> dengan kode berikut
+    - Baris kode didalam <body> pada file index.hbs
+      ```yml
+          <div class="main-content">
+        {{>header}}
+        <p> Aplikasi ini digunakan untuk mengecek cuaca!</p>
+      </div>
+      {{>footer}}
+      ```
+
+    - Baris kode didalam <body> pada file tentang.hbs
+      ```yml
+          <div class="main-content">
+        {{>header}}
+        <img class="portrait" src="/img/image.png">
+      </div>
+      {{>footer}}
+      ```
+
+    - Baris kode didalam <body> pada file bantuan.hbs
+      ```yml
+          <div class="main-content">
+        {{>header}}
+        <p>{{teksBantuan}}</p>
+      </div>
+      {{>footer}}
+      ```
+
+    - Berikut adalah seharusnya tampilan akhir aplikasi anda
+      ![apppa](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d252c4d8-056d-4ded-bb7f-4b2d58a23688)
