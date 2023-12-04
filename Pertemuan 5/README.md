@@ -198,8 +198,7 @@ width: 250px;
       ```
 
     - Buat dua buah file lagi dalam folder views dengan nama bantuan.hbs dan tentang.hbs
-      <br> ![views](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d116a308-ee0b-44bd-a6ec-d22ac00d74db)
- <br>
+      <br> ![views](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d116a308-ee0b-44bd-a6ec-d22ac00d74db) <br>
 
     - Lalu salinlah baris kode bantuan.html ke bantuan.hbs dan ubahlah baris kode yang ada didalam <body> dengan kode berikut
       ```yml
