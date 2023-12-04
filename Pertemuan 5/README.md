@@ -220,8 +220,8 @@ width: 250px;
 </h4>
 <hr>
 
-    -  Jalankan kembali dengan perintah berikut nodemon app.js -e js,hbs
+  -  Jalankan kembali dengan perintah berikut nodemon app.js -e js,hbs
       
-    - asd
+  - asd
 
       
