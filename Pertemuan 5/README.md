@@ -155,3 +155,74 @@ width: 250px;
 </h4>
 <hr>
 
+  - Bukalah file app.js yang ada di folder src dan tambahkan baris kode berikut tepat diatas baris kode app.use(express.static(direktoriPublic))
+    ```yml
+    app.set('view engine', 'hbs')
+    ```
+
+  - Ubah kembali kode pada baris app.get halaman utama dan app.get halaman tentang pada file app.js di folder src dengan kode berikut
+    ```yml
+    //ini halaman utama
+    app.get('', (req, res) => {
+        res.render('index', {
+            judul: 'Aplikasi Cek Cuaca',
+            nama: 'Randi Proska Sandra'
+        })
+    })
+    //ini halaman tentang
+    app.get('/tentang', (req, res) => {
+        res.render('tentang', {
+            judul: 'Tentang Saya',
+            nama: 'Randi Proska Sandra'
+        })
+    })
+    ```
+
+    - Lanjutkan program, lakukan hal yang sama untuk halaman bantuan. Pada baris kode halaman bantuan, tambahkan satu objek lagi yaitu teksBantuan: 'ini adalah teks bantuan'.
+      ```yml
+            //ini halaman bantuan/FAQ (Frequently Asked Questions)
+      app.get('/bantuan', (req, res) => {
+          res.render('tentang', {
+              judul: 'Ini Halaman bantuan',
+              teksBantuan: 'ini adalah teks bantuan'
+          })
+      })
+      ```
+
+    - Lalu, buatlah folder baru pada aplikasi web-server anda dan beri nama views. Didalam folder ini, buatlah file baru dengan nama index.hbs
+   
+    - Salinlah semua baris kode yang ada pada file index.html ke file index.hbs. Lalu gantilah kode yang ada dalam <body> dengan baris kode berikut
+      ```yml
+      <h1>{{judul}}</h1>
+      <p>Dikembangkan oleh {{nama}}</p>
+      ```
+
+    - Buat dua buah file lagi dalam folder views dengan nama bantuan.hbs dan tentang.hbs
+      <br> ![views](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/d116a308-ee0b-44bd-a6ec-d22ac00d74db)
+ <br>
+
+    - Lalu salinlah baris kode bantuan.html ke bantuan.hbs dan ubahlah baris kode yang ada didalam <body> dengan kode berikut
+      ```yml
+      <h1>Bantuan Apa yang anda butuhkan?</h1>
+      <p>{{teksBantuan}}</p>
+      <p>Dikembangkan oleh {{nama}}</p>
+      ```
+
+    - Tambahkan baris kode yang belum ada pada baris kode anda
+      ```yml
+      const direktoriViews = path.join(__dirname, '../templates')
+      app.set('views', direktoriViews)
+      ```
+      <hr>
+
+
+<h4>
+  E. Mengatur Tampilan Aplikasi menggunakan sistem templating
+</h4>
+<hr>
+
+    -  Jalankan kembali dengan perintah berikut nodemon app.js -e js,hbs
+      
+    - asd
+
+      
