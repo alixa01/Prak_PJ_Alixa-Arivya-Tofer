@@ -80,10 +80,7 @@
   - Bukalah aplikasi anda di browser dan pastikan anda beradal url halaman tentang.
 http://localhost:4000/tentang
 
-  - Ubah juga teks untuk halaman bantuan dan halaman infoCuaca. Tambahkan teks pada
-halaman bantuan dengan kode HTML <h1> dan teks infoCuaca dengan kode JSON yang
-berisi dua objek yaitu prediksiCuaca: ‘cuaca berpotensi hujan’ dan lokasi:
-‘Padang’, sama seperti yang anda lakukan pada halaman tentang.
+  - Ubah juga teks untuk halaman bantuan dan halaman infoCuaca. Tambahkan teks pada halaman bantuan dengan kode HTML <h1> dan teks infoCuaca dengan kode JSON yang berisi dua objek yaitu prediksiCuaca: ‘cuaca berpotensi hujan’ dan lokasi: ‘Padang’, sama seperti yang anda lakukan pada halaman tentang.
 
 <br> ![ttg](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/bf96242e-e06f-48a5-abba-c105a52e3b41)
 
