@@ -1,16 +1,36 @@
 const express = require('express')
 const app = express()
-//ini halaman/page utama
+const path = require('path')
+const hbs = require('hbs')
+
+
+const direktoriViews = path.join(__dirname, '../templates/views')
+const direktoriPartials = path.join(__dirname, '../templates/partials')
+
+app.set('view engine', 'hbs')
+app.set('views', direktoriViews)
+hbs.registerPartials(direktoriPartials)
+// app.use(express.static(direktoriPublic))
+//ini halaman utama
 app.get('', (req, res) => {
-    res.send('<h1>Selamat datang di halaman utama</h1>')
+    res.render('index', {
+        judul: 'Aplikasi Cek Cuaca',
+        nama: 'Randi Proska Sandra'
+    })
+})
+//ini halaman tentang
+app.get('/tentang', (req, res) => {
+    res.render('tentang', {
+        judul: 'Tentang Saya',
+        nama: 'Randi Proska Sandra'
+    })
 })
 //ini halaman bantuan/FAQ (Frequently Asked Questions)
 app.get('/bantuan', (req, res) => {
-    res.send('Ini halaman bantuan')
-})
-//ini halaman infoCuaca
-app.get('/infoCuaca', (req, res) => {
-    res.send('Ini halaman info cuaca')
+    res.render('tentang', {
+        judul: 'Ini Halaman bantuan',
+        teksBantuan: 'ini adalah teks bantuan'
+    })
 })
 //ini halaman tentang
 app.get('/tentang', (req, res) => {
