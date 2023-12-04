@@ -64,7 +64,7 @@
 </h4>
 <hr>
 
-  - Cobalah ganti teks selamat datang di halaman utama dengan kode html <h1> sehingga menjadi
+  - Cobalah ganti teks selamat datang di halaman utama dengan kode html ```yml <h1>``` sehingga menjadi
     ```yml
     res.send('<h1>Selamat datang di halaman utama</h1>')
     ```
@@ -80,7 +80,7 @@
   - Bukalah aplikasi anda di browser dan pastikan anda beradal url halaman tentang.
 http://localhost:4000/tentang
 
-  - Ubah juga teks untuk halaman bantuan dan halaman infoCuaca. Tambahkan teks pada halaman bantuan dengan kode HTML <h1> dan teks infoCuaca dengan kode JSON yang berisi dua objek yaitu prediksiCuaca: ‘cuaca berpotensi hujan’ dan lokasi: ‘Padang’, sama seperti yang anda lakukan pada halaman tentang.
+  - Ubah juga teks untuk halaman bantuan dan halaman infoCuaca. Tambahkan teks pada halaman bantuan dengan kode HTML ```yml <h1>``` dan teks infoCuaca dengan kode JSON yang berisi dua objek yaitu prediksiCuaca: ‘cuaca berpotensi hujan’ dan lokasi: ‘Padang’, sama seperti yang anda lakukan pada halaman tentang.
 
 <br> ![ttg](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/bf96242e-e06f-48a5-abba-c105a52e3b41)
 <hr>
@@ -105,7 +105,7 @@ http://localhost:4000/tentang
 ![appp](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/402168dd-2a59-4cd2-9034-c28875192d77)
 <br>
 
-  - Lanjutkan program dengan membuat dua file html lagi pada folder public dengan nama tentang.html dan bantuan.html. Silakan isi file html dengan baris kode html seperti pada halaman index.html. Gantilah teks pada baris kode <h1> agar sesuai dengan nama halaman
+  - Lanjutkan program dengan membuat dua file html lagi pada folder public dengan nama tentang.html dan bantuan.html. Silakan isi file html dengan baris kode html seperti pada halaman index.html. Gantilah teks pada baris kode ```yml <h1>``` agar sesuai dengan nama halaman
     <br>![tb](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/4a75fb09-e092-474f-80f1-58d4cc6b3390)
 <br>
 
@@ -140,7 +140,7 @@ width: 250px;
 
   - Selanjutnya buatlah folder baru lagi dengan nama img. Lalu masukanlah sebuah gambar berformat .png ke folder tersebut. Direkomendasikan memasukan foto anda.
   <br>
-  - Lalu tambahkan baris kode berikut pada file tentang.html tepat dibawah kode <h1> pada bagian <body>
+  - Lalu tambahkan baris kode berikut pada file tentang.html tepat dibawah kode ```yml <h1>``` pada bagian <body>
   ```yml
 <img src="/img/ISI_DENGAN_NAMA_FILE_GAMBAR_ANDA.png">
   ```
