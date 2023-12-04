@@ -139,7 +139,7 @@ width: 250px;
 <br>
 
   - Selanjutnya buatlah folder baru lagi dengan nama img. Lalu masukanlah sebuah gambar berformat .png ke folder tersebut. Direkomendasikan memasukan foto anda.
-  <br>
+  
   - Lalu tambahkan baris kode berikut pada file tentang.html tepat dibawah kode ```yml <h1>``` pada bagian <body>
   ```yml
 <img src="/img/ISI_DENGAN_NAMA_FILE_GAMBAR_ANDA.png">
