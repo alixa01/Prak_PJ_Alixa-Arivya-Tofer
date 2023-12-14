@@ -1,33 +1,30 @@
 <h1 float="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Urbanist&pause=1000&color=1EC309&width=700&lines=Modul+1+-+Pengantar+Pemograman+Berbasis+Jaringan" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Urbanis&pause=1000&color=1EC309&random=false&width=700&lines=Modul+9+-+Email+Protocol" />
 </h1>
 
-- Program Hello World
-    - Buat file dengan nama hello.js lalu ketikkan kode dibawah
-    ```yml
-    console.log('Welcome to Node.js!')
-   ```
-    console.log pada javascript berfungsi untuk menampilkan teks ke Console Javascript
-    - Jalankan file tersebut dan lihat bagaimana hasilnya. 
-    ![hellow world term](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/e5910700-b035-4aec-838a-8943854e1a27)
-    - Buatlah sebuah file baru lagi dengan nama hello-world.js pada folder yang sama
-dan cobalah ketikan kode berikut ini
-    ```yml
-    const http = require('http');
+<h2>
+  LATIHAN EMAIL PROTOCOL
+</h2>
 
-  const hostname = '127.0.0.1'
-  const port = 3000;
+Aplikasi pengirim email menggunakan library Nodemailer ini sangat berguna
+dalam mengelola notifikasi untuk berbagai kegiatan pengguna di suatu platform.
+Contohnya, ketika seorang pengguna melakukan sign in atau login, aplikasi dapat secara
+otomatis mengirimkan email notifikasi untuk memberikan konfirmasi bahwa proses
+tersebut telah berhasil dilakukan. Selain itu, ketika pengguna membuat pesanan atau
+melakukan tindakan penting lainnya, aplikasi ini dapat memberikan pemberitahuan
+melalui email untuk memberikan informasi yang relevan kepada pengguna.
+Dengan menggunakan Nodemailer, pengembang dapat dengan mudah
+mengintegrasikan fitur pengiriman email ke dalam aplikasi mereka, meningkatkan
+interaksi dengan pengguna, dan memberikan pengalaman pengguna yang lebih baik.
 
-  const server = http.createServer((req, res) => {
-      res.statusCode = 200;
-      res.setHeader('Content-Type', 'text/plain');
-      res.end('Hello World');
-  })
+<hr>
+<br>
 
-  server.listen(port, hostname, () => {
-      console.log(\`Server running at http://${hostname}:${port}/`);
-  })
-    ```
-    - Jalankan program tersebut dan akan muncul informasi Server running at
-http://127.0.0.1:3000/
-![web](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/2d569a99-7b24-45e4-b336-2b43cb487fb8)
+![email](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/12e2c4f5-edf1-4a35-957e-d26687375713)
+
+<br>
+<h2>
+  Hasil Email
+</h2> <br>
+
+![hasil](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f48b56b0-4db1-4ce9-9acc-146f422dac50)
