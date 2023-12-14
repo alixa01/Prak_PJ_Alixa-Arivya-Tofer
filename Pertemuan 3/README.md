@@ -1,5 +1,5 @@
 <h1 float="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Urbanist&pause=1000&color=1EC309&width=700&lines=Modul+2+-+Node.js+Module+System+dan+Command+Line+Arguments" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Urbanis&pause=1000&color=1EC309&random=false&width=700&lines=Modul+3+-+HTTP+Request+and+API" />
 </h1>
 
 <h2>
