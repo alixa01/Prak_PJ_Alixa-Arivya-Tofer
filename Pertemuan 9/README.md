@@ -16,3 +16,15 @@ melalui email untuk memberikan informasi yang relevan kepada pengguna.
 Dengan menggunakan Nodemailer, pengembang dapat dengan mudah
 mengintegrasikan fitur pengiriman email ke dalam aplikasi mereka, meningkatkan
 interaksi dengan pengguna, dan memberikan pengalaman pengguna yang lebih baik.
+
+<hr>
+<br>
+
+![email](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/12e2c4f5-edf1-4a35-957e-d26687375713)
+
+<br>
+<h2>
+  Hasil Email
+</h2> <br>
+
+![hasil](https://github.com/alixa01/Prak_PJ_Alixa-Arivya-Tofer/assets/94752755/f48b56b0-4db1-4ce9-9acc-146f422dac50)
