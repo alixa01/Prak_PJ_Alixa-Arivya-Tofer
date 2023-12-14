@@ -15,3 +15,5 @@
   a. Req Query
 </h4>
 <hr>
+
+  - Bukalah aplikasi web-server anda pada visual studio code. Pastikan anda berada pada direktori src, lalu jalankan aplikasi menggunakan perintah nodemon app.js -e js,hbs
